@@ -3,15 +3,17 @@
 
 This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
 
+### Install App Dependencies
+
+#### `yarn install`
+
 ## Project Structure
 
-The default template is a monorepo created with [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/).
-
-Workspaces makes it possible to setup multiple packages in such a way that we only need to run `yarn install` once to install all of them in
-a single pass. Dependencies are hoisted at the root.
+we only need to run `yarn install` once to install all of the dependencies in a single pass. 
+Dependencies are hosted at the root.
 
 ```
-my-eth-app
+Openseal
 ├── README.md
 ├── node_modules
 ├── package.json
@@ -59,13 +61,7 @@ my-eth-app
         └── subgraph.yaml
 ```
 
-Owing to this dependency on Yarn Workspaces, Create Eth App can't be used with npm.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### React App
+### Run React App In Dev Mode
 
 #### `yarn react-app:start`
 
