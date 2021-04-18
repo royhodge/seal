@@ -10,6 +10,8 @@ import useWeb3Modal from "./hooks/useWeb3Modal";
 import { addresses, abis } from "@project/contracts";
 import GET_TRANSFERS from "./graphql/subgraph";
 
+// This is the heart of the app, exercise caution when modifying & run tests before merging
+
 async function readOnChainData() {
   // Should replace with the end-user wallet, e.g. Metamask
   const defaultProvider = getDefaultProvider();
