@@ -1,13 +1,23 @@
-# OpenSeal
-:seal:
+# Project OpenSeal
 
-This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
+This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app) &
+We :heart: Create Eth App for being such an excellent boilerplate for web3 & sol!
 
-### Install App Dependencies
+
+The master plan has been laid out:
+
+![Diagram 1](https://github.com/royhodge/seal/blob/main/images4docs/d1.png?raw=true)
+
+
+![Diagram 2](https://github.com/royhodge/seal/blob/main/images4docs/d2.png?raw=true)
+
+
+
+### First, Install App Dependencies
 
 #### `yarn install`
 
-## Project Structure
+## Understand our Project Structure
 
 we only need to run `yarn install` once to install all of the dependencies in a single pass. 
 Dependencies are hosted at the root.
@@ -60,6 +70,7 @@ Openseal
         │       └── transfers.ts
         └── subgraph.yaml
 ```
+^ Needs Updated! 
 
 ### Run React App In Dev Mode
 
